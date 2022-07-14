@@ -9,8 +9,7 @@
 html {
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
-  scrollbar-width: auto;
-  scrollbar-color: rgb(143, 143, 143) rgb(0, 0, 0);
+  scrollbar-width: initial;
 }
 .scroll-container {
   height: 100%;
@@ -109,6 +108,22 @@ html {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+.album .image-container .gif{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25px;
+  width: 50px;
+  border-radius: 8px;
+  right: 10px;
+  top: 10px;
+  padding: 5px 15px;
+  font-size: 1em;
+  font-weight: 800;
+  color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 .album .image-container .info{
   position: absolute;
